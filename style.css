@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+section h1{
+    color: #fff;
+    font-size: 9em;
+    font-weight: 600;
+    position: relative;
+    cursor: default;
+}
+.light{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x) var(--y), transparent 10%, rgba(0,0,0,1) 20%);
+}
